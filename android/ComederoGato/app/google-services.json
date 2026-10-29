@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "297682567476",
+    "firebase_url": "https://comedero-gato-a3d10-default-rtdb.firebaseio.com",
+    "project_id": "comedero-gato-a3d10",
+    "storage_bucket": "comedero-gato-a3d10.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:297682567476:android:f3e6adcd18dd42cbbae561",
+        "android_client_info": {
+          "package_name": "cl.inacap.comederogato"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeqI8xo4rAEcd1tetQl4KgE_vHP4Szm5s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

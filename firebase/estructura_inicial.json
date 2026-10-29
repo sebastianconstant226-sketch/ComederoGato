@@ -1,0 +1,13 @@
+{
+  "control": {
+    "activarManual": false,
+    "horarioFijo": "08:00"
+  },
+  "monitoreo": {
+    "nivelComida": 0
+  },
+  "historial_comidas": {
+    "-ComederoEjemplo001": "2026-10-28 08:00:00",
+    "-ComederoEjemplo002": "2026-10-28 13:30:12"
+  }
+}

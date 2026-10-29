@@ -1,0 +1,11 @@
+<resources>
+    <!-- Tema base de la aplicación (claro, sin barra de acción) -->
+    <style name="Base.Theme.ComederoGato" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/primario</item>
+        <item name="colorSecondary">@color/acento</item>
+        <item name="android:colorBackground">@color/fondo</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.ComederoGato" parent="Base.Theme.ComederoGato" />
+</resources>

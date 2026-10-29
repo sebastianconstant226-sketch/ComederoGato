@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Comedero Gato</string>
+
+    <string name="titulo">🐱 Comedero Inteligente</string>
+    <string name="subtitulo">Control y monitoreo en tiempo real</string>
+
+    <string name="etiqueta_nivel">Comida restante en el depósito</string>
+    <string name="nivel_sin_datos">-- %</string>
+    <string name="nivel_formato">%1$d %%</string>
+    <string name="estado_esperando">Esperando datos del comedero…</string>
+    <string name="estado_alto">Depósito con suficiente comida</string>
+    <string name="estado_medio">Nivel medio: rellena pronto</string>
+    <string name="estado_bajo">¡Nivel bajo! Rellena el depósito</string>
+
+    <string name="boton_manual">🍽️  Alimentación manual inmediata</string>
+    <string name="boton_manual_pendiente">⏳  Dispensando comida…</string>
+    <string name="dialogo_manual_titulo">Alimentar ahora</string>
+    <string name="dialogo_manual_mensaje">¿Quieres que el comedero dispense una porción de comida en este momento?</string>
+    <string name="dialogo_si">Sí, alimentar</string>
+    <string name="dialogo_no">Cancelar</string>
+    <string name="toast_manual_ok">Orden enviada al comedero</string>
+
+    <string name="etiqueta_horario">Horario de alimentación automática (24 h)</string>
+    <string name="horario_actual_formato">Horario programado: %1$s</string>
+    <string name="horario_sin_programar">Horario programado: sin definir</string>
+    <string name="boton_horario">💾  Guardar horario automático</string>
+    <string name="toast_horario_ok">Horario guardado: %1$s</string>
+
+    <string name="etiqueta_historial">Historial de comidas</string>
+    <string name="historial_total_formato">Últimos %1$d registros</string>
+    <string name="historial_vacio">Aún no hay registros de comidas</string>
+    <string name="historial_ultima">ÚLTIMA</string>
+
+    <string name="toast_error_formato">Error de conexión: %1$s</string>
+</resources>

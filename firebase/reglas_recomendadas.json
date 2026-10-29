@@ -1,0 +1,32 @@
+{
+  "rules": {
+    ".read": true,
+    "control": {
+      ".write": true,
+      "activarManual": {
+        ".validate": "newData.isBoolean()"
+      },
+      "horarioFijo": {
+        ".validate": "newData.isString() && newData.val().matches(/^([01][0-9]|2[0-3]):[0-5][0-9]$/)"
+      },
+      "$otro": {
+        ".validate": false
+      }
+    },
+    "monitoreo": {
+      ".write": true,
+      "nivelComida": {
+        ".validate": "newData.isNumber() && newData.val() >= 0 && newData.val() <= 100"
+      },
+      "$otro": {
+        ".validate": false
+      }
+    },
+    "historial_comidas": {
+      "$registro": {
+        ".write": "!data.exists()",
+        ".validate": "newData.isString() && newData.val().matches(/^[0-9]{4}-[0-9]{2}-[0-9]{2} [0-9]{2}:[0-9]{2}:[0-9]{2}$/)"
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="fondo">#FFFFF8F0</color>
+    <color name="tarjeta">#FFFFFFFF</color>
+    <color name="borde_tarjeta">#FFF1E3D3</color>
+    <color name="fondo_lista">#FFFFF1E0</color>
+    <color name="primario">#FF6D4C41</color>
+    <color name="acento">#FFFF6F00</color>
+    <color name="boton_horario">#FF5D4037</color>
+    <color name="texto">#FF3E2723</color>
+    <color name="texto_suave">#FF8D6E63</color>
+
+    <color name="nivel_alto">#FF2E7D32</color>
+    <color name="nivel_medio">#FFF9A825</color>
+    <color name="nivel_bajo">#FFC62828</color>
+</resources>

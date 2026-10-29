@@ -1,0 +1,18 @@
+TI3042 - Aplicaciones Móviles para IoT - Unidad 2
+Proyecto: Comedero Automático Inteligente para Gatos
+Tipo de evaluación: Individual - Formativa
+
+Link al repositorio GitHub con el código de la aplicación:
+https://github.com/sebastianconstant226-sketch/ComederoGato
+
+Contenido del repositorio:
+- README.md ............ guía completa (Firebase, Android Studio, cableado, firmware, app) y resultado de pruebas
+- android/ComederoGato . proyecto Android Studio (Java) - app de control y monitoreo
+- APK/ComederoGato.apk . aplicación lista para instalar (Android 7.0 o superior)
+- firmware/ComederoGato  firmware ESP32 (Arduino IDE)
+- firebase/ ............ estructura JSON y reglas de seguridad (modo prueba y recomendadas ISO 27400)
+- herramientas/ ........ simulador de la ESP32 para pruebas sin hardware
+- capturas/ ............ evidencias de funcionamiento en Android 16 y Android 8.0
+
+Tecnologías: Android Studio (Java), Firebase Realtime Database, ESP32, HC-SR04, servo SG90.
+Comunicación inalámbrica: Wi-Fi (ESP32) + Internet (Firebase) - sincronización en tiempo real entre 2 o más dispositivos Android.
